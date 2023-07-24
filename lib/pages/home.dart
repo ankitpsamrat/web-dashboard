@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:web_dashboard/pages/container1.dart';
 import 'package:web_dashboard/utils/constants.dart';
 
 class Home extends StatefulWidget {
@@ -10,7 +11,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { 
     w = MediaQuery.of(context).size.width;
     h = MediaQuery.of(context).size.height;
 
@@ -20,7 +21,7 @@ class _HomeState extends State<Home> {
           children: [
             // NavBar(),
             SizedBox(height: 100),
-            // Container1(),
+            Container1(),
             // Container2(),
             // Container3(),
             // Container4(),
